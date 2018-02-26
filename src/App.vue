@@ -31,8 +31,11 @@ export default {
   height: 100vh;
   @include flex(none, none);
   flex-direction: column;
+  background-color: #EEEEEE;
   >.topbar{
-    height: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #fff;
   }
   >main{
     flex: 1;

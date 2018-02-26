@@ -1,0 +1,13 @@
+@mixin flex($justifyContent, $alignItems){
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+@mixin fontColor($font, $color){
+    font-size: $font;
+    color: $color;
+}
+@mixin widthHeight($width, $height){
+    min-width: $width;
+    min-height: $height;
+}
