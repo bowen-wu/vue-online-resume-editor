@@ -8,31 +8,15 @@
             </div>
             <el-menu :default-active="activeIndex" class="el-menu-demo" 
                     mode="horizontal" @select="handleSelect" active-text-color="#409EFF">
-                <el-menu-item index="1">基本编辑</el-menu-item>
-                <el-menu-item index="2">可视化编辑器</el-menu-item>
-                <el-menu-item index="3">预览</el-menu-item>
+                <el-menu-item index="1">可视化编辑器</el-menu-item>
             </el-menu>
         </div>
         <div class="operationArea">
             <div class="action">
-                <el-button plain>
-                    <svg class="icon">
-                        <use xlink:href="#icon-share1"></use>
-                    </svg>
-                    <span>分享</span>
-                </el-button>
-                <el-button plain>
-                    <svg class="icon">
-                        <use xlink:href="#icon-LC_icon_download_line"></use>
-                    </svg>
-                    <span>PDF</span>
-                </el-button>
-                <el-button plain>
-                    <svg class="icon">
-                        <use xlink:href="#icon-dingbulan"></use>
-                    </svg>
-                    <span>反馈</span>
-                </el-button>
+                <el-button plain>注册</el-button>
+                <el-button plain>登录</el-button>
+                <el-button plain>保存</el-button>
+                <el-button plain>预览</el-button>
             </div>
             <div class="setup">
                 <svg class="icon">

@@ -16,7 +16,7 @@ import Preview from './components/Preview'
 export default {
   name: 'App',
   components: {
-    Topbar, Editor, Preview
+    Topbar, Editor, Preview, 
   }
 }
 </script>
@@ -34,7 +34,6 @@ export default {
   background-color: #EEEEEE;
   >.topbar{
     height: 60px;
-    margin-bottom: 20px;
     background-color: #fff;
   }
   >main{
